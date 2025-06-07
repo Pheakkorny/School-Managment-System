@@ -1,0 +1,12 @@
+.container{
+    display: inline-block;
+    padding: 20px;
+    width: 200px;
+    background-color: rgba(10, 169, 190, 0.375);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+.ProductName {
+    font-weight: bold;
+}

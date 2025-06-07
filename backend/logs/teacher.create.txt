@@ -1,0 +1,120 @@
+[30/01/2025 14:32:55]Error: Duplicate entry 'pheakkornycp17@gmail.com' for key 'teacher.Email'
+
+[04/06/2025 15:55:49]Error: Duplicate entry '010347834' for key 'Tel'
+
+[04/06/2025 15:56:34]Error: Duplicate entry '010347834' for key 'Tel'
+
+[04/06/2025 15:59:22]Error: Duplicate entry '010347834' for key 'Tel'
+
+[04/06/2025 16:09:21] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:35] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:46] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:52] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:57] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:58] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:58] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:58] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:09:59] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:10:53] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:16:54] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:04] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:25] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:37] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:42] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:45] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:49] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:50] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:50] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:51] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:52] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:52] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:52] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:52] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:53] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:53] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:53] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:53] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:54] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:54] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:54] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:54] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:55] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:17:55] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:18:58] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:00] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:00] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:00] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:02] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:03] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:03] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:03] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:03] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:06] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:06] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:06] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:06] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:07] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:08] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:08] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:08] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 16:19:09] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 21:46:58] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 21:47:07] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 21:47:16] Error: Duplicate entry '092343273' for key 'Tel'
+
+[04/06/2025 21:47:31] Error: Duplicate entry '092343273' for key 'Tel'
+

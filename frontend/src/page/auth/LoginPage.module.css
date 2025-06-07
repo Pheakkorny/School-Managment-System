@@ -1,0 +1,21 @@
+.loginContainer{
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    border: solid 1px antiquewhite;
+    border-radius: 10px;
+    background-color: rgba(109, 113, 121, 0.607);
+    margin: auto;
+    margin-top: 150px;
+}
+.messageLogin {
+    margin-bottom: 20px;
+  }
+  
+  .successMessage {
+    color: green;
+  }
+  
+  .errorMessage {
+    color: red;
+  }

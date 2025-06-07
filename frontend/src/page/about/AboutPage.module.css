@@ -1,0 +1,8 @@
+Button{
+    margin: 5px;
+}
+.danger{
+    background-color: green;
+    color: aqua;
+    margin-left: 15px;
+}

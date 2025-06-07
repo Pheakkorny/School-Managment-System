@@ -1,0 +1,49 @@
+.headerContainer{
+    background-blend-mode: gray;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    background-color: #027f6e;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandName{
+    font-size: 18px;
+    font-weight: bold;
+}
+.subBrandName{
+    font-size: 13px;
+    color: #888;
+}
+.headerG1{
+    display: flex;
+}
+.headerG2{
+    display: flex;
+}
+.userName{
+    color: #027f6e;
+    font-size: 16px;
+    font-weight: bold;
+}
+.roleName{
+    font-size: 11px;
+    color: #888;
+    text-align: right;
+}
+.userImage{
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-right: 10px;
+    border: 1px solid gray;
+}
