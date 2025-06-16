@@ -87,42 +87,80 @@ function AdminTeacherPage() {
     setVisible(false);
     formTeacher.resetFields(); // Clear form data when modal is closed
   };
+//   const onFinish = async (values) => {
+//   const isEdit = !!values.Id; // true if editing
+
+//   const formData = {
+//     ...values,
+//     Gender: values.Gender ? values.Gender : "1",
+//     IsActive: values.IsActive ? values.IsActive : "1",
+//   };
+
+//   try {
+//     const endpoint = isEdit ? `teacher/${values.Id}` : "teacher";
+//     const method = isEdit ? "put" : "post";
+
+//     const res = await request(endpoint, method, formData);
+
+//     if (res?.error) {
+//       const errorMessages = typeof res.error === "object"
+//         ? Object.values(res.error).join(", ")
+//         : res.error;
+
+//       notification.error({
+//         message: "Error",
+//         description: errorMessages,
+//       });
+//     } else {
+//       message.success(`Teacher ${isEdit ? "updated" : "created"} successfully!`);
+//       getList(); // Refresh list
+//       onCloseForm();
+//     }
+//   } catch (error) {
+//     notification.error({
+//       message: "Request Failed",
+//       description: error.message || "Something went wrong",
+//     });
+//   }
+// };
   const onFinish = async (values) => {
-  const isEdit = !!values.Id; // true if editing
+    const isEdit = !!values.Id; // true if editing
+    console.log("Submitted values:", values); // 👈 Add this
 
-  const formData = {
-    ...values,
-    Gender: values.Gender ? values.Gender : "1",
-    IsActive: values.IsActive ? values.IsActive : "1",
-  };
+    const formData = {
+      ...values,
+      Gender: values.Gender ? values.Gender : "1",
+      IsActive: values.IsActive ? values.IsActive : "1",
+      Dob: values.Dob ? dayjs(values.Dob).format("YYYY-MM-DD") : null, // ✅ Format Dob
+    };
 
-  try {
-    const endpoint = isEdit ? `teacher/${values.Id}` : "teacher";
-    const method = isEdit ? "put" : "post";
+    try {
+      const endpoint = isEdit ? `teacher/${values.Id}` : "teacher";
+      const method = isEdit ? "put" : "post";
 
-    const res = await request(endpoint, method, formData);
+      const res = await request(endpoint, method, formData);
 
-    if (res?.error) {
-      const errorMessages = typeof res.error === "object"
-        ? Object.values(res.error).join(", ")
-        : res.error;
+      if (res?.error) {
+        const errorMessages = typeof res.error === "object"
+          ? Object.values(res.error).join(", ")
+          : res.error;
 
+        notification.error({
+          message: "Error",
+          description: errorMessages,
+        });
+      } else {
+        message.success(`Teacher ${isEdit ? "updated" : "created"} successfully!`);
+        getList(); // Refresh list
+        onCloseForm();
+      }
+    } catch (error) {
       notification.error({
-        message: "Error",
-        description: errorMessages,
+        message: "Request Failed",
+        description: error.message || "Something went wrong",
       });
-    } else {
-      message.success(`Teacher ${isEdit ? "updated" : "created"} successfully!`);
-      getList(); // Refresh list
-      onCloseForm();
     }
-  } catch (error) {
-    notification.error({
-      message: "Request Failed",
-      description: error.message || "Something went wrong",
-    });
-  }
-};
+  };
 
   
   const handleStatus = (value) => {
@@ -249,6 +287,10 @@ function AdminTeacherPage() {
         onFinish={onFinish}
         onCancel = {onCloseForm}
         >
+          {/* Hidden ID field */}
+          <Form.Item name="Id" hidden>
+            <Input />
+          </Form.Item>
           <Form.Item 
           label="FirstName" 
           name="FirstName"
@@ -292,7 +334,7 @@ function AdminTeacherPage() {
           <div style={{textAlign: "right"}}>
             <Space>
               <Button htmlType="reset">Cancel</Button>
-              <Button  type="primary" htmlType="submit">{formTeacher.getFieldValue("Id") ? "Update" : "Submit"}</Button>
+              <Button  type="primary" htmlType="submit">{formTeacher.getFieldValue("id") ? "Update" : "Submit"}</Button>
             </Space>
           </div>
         </Form>

@@ -118,3 +118,21 @@
 
 [04/06/2025 21:47:31] Error: Duplicate entry '092343273' for key 'Tel'
 
+[16/06/2025 09:17:21] Error: Duplicate entry '065756453' for key 'Tel'
+
+[16/06/2025 09:17:26] Error: Duplicate entry '065756453' for key 'Tel'
+
+[16/06/2025 09:21:27] Error: Duplicate entry '065756453' for key 'Tel'
+
+[16/06/2025 09:21:50] Error: Duplicate entry '065756453' for key 'Tel'
+
+[16/06/2025 09:22:03] Error: Duplicate entry '0932472633' for key 'Tel'
+
+[16/06/2025 09:28:59] Error: Duplicate entry '065756453' for key 'Tel'
+
+[16/06/2025 09:29:22] Error: Duplicate entry '065756453' for key 'Tel'
+
+[16/06/2025 09:33:30] Error: Duplicate entry '065756453' for key 'Tel'
+
+[16/06/2025 09:33:45] Error: Duplicate entry 'cheahunbtsfan@gmail.com' for key 'Email'
+
